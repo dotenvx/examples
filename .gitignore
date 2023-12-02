@@ -2,3 +2,7 @@
 node_modules
 __pycache__
 target
+
+.env*
+!.env.vault
+.flaskenv*
