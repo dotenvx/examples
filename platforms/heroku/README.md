@@ -1,4 +1,4 @@
 # platforms/heroku
 
-* [Node](/)
+* [Node](./nodejs)
 * [Ruby](/)
