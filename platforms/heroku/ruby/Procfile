@@ -1,0 +1,2 @@
+# Procfile
+web: dotenvx run -- ruby index.rb
