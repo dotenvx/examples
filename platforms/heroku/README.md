@@ -7,3 +7,4 @@
 * [PHP](./php)
 * [Ruby](./ruby)
 * [Go](./go)
+* [Rust](./rust)
