@@ -1,0 +1,2 @@
+# Procfile
+web: dotenvx run -- heroku-php-apache2
