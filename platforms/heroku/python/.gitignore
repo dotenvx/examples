@@ -1,0 +1,8 @@
+
+.env*
+!.env.vault
+
+# FOR EXAMPLE PURPOSES ONLY. DO NOT COMMIT IN YOUR OWN CODE.
+!.env.keys
+!.env
+!.env.production
