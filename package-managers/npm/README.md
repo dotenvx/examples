@@ -4,3 +4,5 @@
 
 * [Express](./express)
 * [Remix](./remix)
+* [Next](./next)
+* [Astro](./astro)
