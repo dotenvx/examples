@@ -1,0 +1,3 @@
+# vercelignore
+.env*
+!.env.vault

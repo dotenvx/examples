@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dotenvx": "dotenvx",
+    "dev": "dotenvx run -- astro dev",
+    "start": "dotenvx run -- astro dev",
+    "build": "astro check && dotenvx run -- astro build",
+    "preview": "dotenvx run -- astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@dotenvx/dotenvx": "^0.10.2",
+    "astro": "^4.1.2",
+    "typescript": "^5.3.3"
+  }
+}
