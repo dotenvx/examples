@@ -38,4 +38,4 @@ next-env.d.ts
 # FOR EXAMPLE PURPOSES ONLY. DO NOT COMMIT IN YOUR OWN CODE.
 !.env.keys
 !.env
-!.env.productio
+!.env.production
