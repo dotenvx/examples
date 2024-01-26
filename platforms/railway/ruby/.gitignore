@@ -1,0 +1,7 @@
+.env*
+!.env.vault
+
+# for example purposes ONLY. do NOT commit your .env files to code
+!.env
+!.env.production
+!.env.keys
