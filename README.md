@@ -7,6 +7,8 @@
 * [Docker](./platforms/docker)
 * [Fly](./platforms/fly)
 * [Heroku](./platforms/heroku)
+* [Netlify](./platforms/netlify)
+* [Railway](./platforms/railway)
 * [Vercel](./platforms/vercel)
 
 ## CI/CDs
