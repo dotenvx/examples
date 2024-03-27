@@ -18,3 +18,12 @@
 ## Package Managers
 
 * [NPM](./package-managers/npm)
+
+## Process Managers
+
+* [PM2](./process-managers/pm2)
+
+## Monorepos
+
+* [Nx](./monorepos/nx)
+* [Turborepo](./monorepos/turborepo)
