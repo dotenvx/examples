@@ -11,4 +11,4 @@ jobs:
     - run: curl -fsS https://dotenvx.sh/ | sh
     - run: dotenvx run -- node build.js
       env:
-        DOTENV_KEY: ${{ secrets.DOTENV_KEY }}
+        DOTENV_PRIVATE_KEY_CI: ${{ secrets.DOTENV_PRIVATE_KEY_CI }}
