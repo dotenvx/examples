@@ -1,3 +1,2 @@
 # vercelignore
-.env*
-!.env.vault
+.env.keys
