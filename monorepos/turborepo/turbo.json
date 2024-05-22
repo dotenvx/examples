@@ -6,6 +6,14 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "web#build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "HELLO"
+      ]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },
