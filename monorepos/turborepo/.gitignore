@@ -36,6 +36,3 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
-
-# for example purposes only! do not commit your .env.keys file to code
-!.env.keys
