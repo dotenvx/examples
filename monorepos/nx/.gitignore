@@ -39,8 +39,3 @@ testem.log
 Thumbs.db
 
 .nx/cache
-
-# for example purposes only. don't commit these files to code with your application
-!.env.keys
-!.env.vault
-!.env*

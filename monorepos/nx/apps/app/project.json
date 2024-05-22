@@ -1,24 +1,24 @@
 {
-  "name": "nx",
+  "name": "app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/nx/src",
+  "sourceRoot": "apps/app/src",
   "projectType": "application",
+  "tags": [],
   "targets": {
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "nx:build"
+        "buildTarget": "app:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "nx:build:development"
+          "buildTarget": "app:build:development"
         },
         "production": {
-          "buildTarget": "nx:build:production"
+          "buildTarget": "app:build:production"
         }
       }
     }
-  },
-  "tags": []
+  }
 }
