@@ -11,7 +11,7 @@ WORKDIR /root/
 
 # Install dotenvx
 RUN apk --no-cache add curl
-RUN curl -fsS https://dotenvx.sh/ | sh
+RUN curl -fsS https://dotenvx.sh/install.sh | sh
 COPY --from=builder /app/.env* ./
 
 COPY --from=builder /app/main .

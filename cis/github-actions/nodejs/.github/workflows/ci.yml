@@ -8,7 +8,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
-    - run: curl -fsS https://dotenvx.sh/ | sh
+    - run: curl -fsS https://dotenvx.sh/install.sh | sh
     - run: dotenvx run -- node build.js
       env:
         DOTENV_PRIVATE_KEY_CI: ${{ secrets.DOTENV_PRIVATE_KEY_CI }}

@@ -4,7 +4,7 @@ RUN rustup default nightly
 WORKDIR /app
 
 # Install dotenvx
-RUN curl -fsS https://dotenvx.sh/ | sh
+RUN curl -fsS https://dotenvx.sh/install.sh | sh
 
 COPY . .
 ENV ROCKET_ADDRESS=0.0.0.0

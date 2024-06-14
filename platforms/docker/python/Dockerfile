@@ -3,7 +3,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Install dotenvx
-RUN curl -fsS https://dotenvx.sh/ | sh
+RUN curl -fsS https://dotenvx.sh/install.sh | sh
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
