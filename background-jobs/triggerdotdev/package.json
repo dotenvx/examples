@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.26.0",
+    "@trigger.dev/sdk": "^3.3.1"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "^3.3.1"
+  }
+}

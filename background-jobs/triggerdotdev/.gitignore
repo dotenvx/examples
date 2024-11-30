@@ -1,0 +1,4 @@
+.trigger
+!.env*
+# for demo purposes only
+!.env.keys
