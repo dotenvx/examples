@@ -7,7 +7,7 @@
     "start": "dotenvx run -- next start"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "^0.10.2",
+    "@dotenvx/dotenvx": "^1.38.2",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
