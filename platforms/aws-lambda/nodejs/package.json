@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.42.2"
+  }
+}
