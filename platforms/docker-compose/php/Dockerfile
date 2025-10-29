@@ -9,6 +9,3 @@ RUN echo 'PassEnv HELLO' > /etc/apache2/conf-available/passenv.conf
 RUN a2enconf passenv
 COPY . .
 EXPOSE 80
-
-# Prepend dotenvx run
-CMD ["dotenvx", "run", "--", "apache2-foreground"]

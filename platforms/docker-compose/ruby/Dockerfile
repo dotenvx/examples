@@ -9,6 +9,3 @@ COPY Gemfile Gemfile.lock ./
 RUN bundle install
 COPY . .
 EXPOSE 4567
-
-# Prepend dotenvx run
-CMD ["dotenvx", "run",  "--env-file=.env.production", "--", "ruby", "index.rb", "-o", "0.0.0.0"]

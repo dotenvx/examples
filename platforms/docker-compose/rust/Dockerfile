@@ -11,6 +11,3 @@ ENV ROCKET_ADDRESS=0.0.0.0
 ENV ROCKET_PORT=20629
 RUN cargo build --release
 EXPOSE 20629
-
-# Prepend dotenvx run
-CMD ["dotenvx", "run", "--env-file=.env.production", "--", "./target/release/app"]

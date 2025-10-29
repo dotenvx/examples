@@ -3,9 +3,9 @@ version: "3.8"
 services:
   web:
     build: .
-    command: dotenvx run -f .env.production -- node index.js
+    command: dotenvx run -f .env.production -- gunicorn --workers 4 --bind 0.0.0:5000 wsgi:app
     ports:
-      - "3000:3000"
+      - "5000:5000"
     environment:
       DOTENV_PRIVATE_KEY: ${DOTENV_PRIVATE_KEY}
       DOTENV_PRIVATE_KEY_PRODUCTION: ${DOTENV_PRIVATE_KEY_PRODUCTION}

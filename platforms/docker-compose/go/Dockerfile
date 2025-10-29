@@ -16,6 +16,3 @@ COPY --from=builder /app/.env* ./
 
 COPY --from=builder /app/main .
 EXPOSE 1323
-
-# Prepend dotenvx run
-CMD ["dotenvx", "run", "--env-file=.env.production", "--", "./main"]
