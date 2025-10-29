@@ -1,0 +1,12 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  web:
+    build: .
+    env_file: .env.keys
+    command: dotenvx run -f .env.production -- node index.js
+    ports:
+      - "3000:3000"
+    environment:
+      DOTENV_PRIVATE_KEY: ${DOTENV_PRIVATE_KEY}
+      DOTENV_PRIVATE_KEY_PRODUCTION: ${DOTENV_PRIVATE_KEY_PRODUCTION}
